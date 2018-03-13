@@ -370,6 +370,13 @@ a:hover, a:visited, a:link, a:active {
   align-items: center;
   justify-content: space-between; }
 
+.flexresponse {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .maxwidth {
   max-width: 1000px; }
 
@@ -391,8 +398,8 @@ a:hover, a:visited, a:link, a:active {
   font-family: 'Inconsolata',sans-serif;
   color: lightgray;
   font-size: 18px;
-  width: 45%;
-  margin: 2.5%; }
+  width: 400px;
+  }
 
 /* Navbar */
 #navbar {
