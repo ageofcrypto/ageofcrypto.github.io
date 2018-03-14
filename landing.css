@@ -373,7 +373,7 @@ a:hover, a:visited, a:link, a:active {
 .flexresponse {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -399,6 +399,7 @@ a:hover, a:visited, a:link, a:active {
   color: lightgray;
   font-size: 18px;
   width: 400px;
+  margin-bottom: 60px
   }
 
 /* Navbar */
@@ -439,8 +440,8 @@ a:hover, a:visited, a:link, a:active {
 /* Main Content */
 #container > div {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 #container > div:nth-child(even) {
   background-color: black;
