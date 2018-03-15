@@ -377,6 +377,14 @@ a:hover, a:visited, a:link, a:active {
   flex-wrap: wrap;
 }
 
+.primaryColor{
+  color:#4dd0e1;
+}
+
+.secondaryColor{
+  color:#d32f2f;
+}
+
 .maxwidth {
   max-width: 1000px; }
 
