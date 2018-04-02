@@ -38,8 +38,8 @@
 
 <body class='theme-light'>
 	<div id='container' class='main-background-color'>
-		<div id='countDown' style='display:flex;flex-direction:column;align-items:center;height:500px;background-image: url(CircuitFrame.jpg); background-size:cover'>
-		  <h1 style='margin-top:100px;font-size:300%'>Game Begins In</h1>
+		<div id='countDown' style='display:flex;flex-direction:column;align-items:center;justify-content:center;height:500px;background-image: url(CircuitFrame.jpg); background-size:cover'>
+		  <h1 style='font-size:300%'>Game Begins In</h1>
 		  <h1 style='margin-top:10px'>30 Days 7 Hours</h1>
 		</div>
 		<div id='countrySale' style='display:flex;flex-direction:column;align-items:center;height:400px'>
@@ -51,12 +51,67 @@
 		</div>
 		<div id='nodeSale' style='height:400px;background-image: url(CircuitFrame.jpg); background-size:cover'>
 		  <h1>Node Auction</h1>
-		  <h2>View Nodes Currenty up for Auction</h2>
+		  <h2>View Nodes Currently up for Auction</h2>
 		  <button>Click Here</button>
 		</div>
-		<div id='ownership' style='height:600px'>
+		<div id='ownership'>
 		  <h1>Nodes You Own</h1>
 		  <h3>Sign In to Metamask to See the Nodes You Own</h3> 
+		  <div id='nodeCollection' style='margin-top:50px'>
+		    <h1> Master Nodes </h1>
+		    <div style='display:flex;flex-direction:row'>
+			<div>
+				<img src='MaxNodeSmall.png'/>
+				<h3>Node ID: 4x94dj</h3>
+				<h3>Production Rate: 15</h3>
+			</div>
+			<div>
+				<img src='MaxNodeFillSmall.png'/>
+			</div>
+			<div>
+				<img src='MaxNodeFillSmall.png'/>
+			</div>
+		    </div>
+		    <h1 style='margin-top:100px'> Standard Nodes </h1>
+		    <div style='display:flex;flex-direction:row'>
+			<div>
+				<img src='MedNodeSmall.png'/>
+				<h3>Node ID: 99xkj3</h3>
+				<h3>Production Rate: 7</h3>
+			</div>
+			<div>
+				<img src='MedNodeFillSmall.png'/>
+			</div>
+			<div>
+				<img src='MedNodeFillSmall.png'/>
+			</div>
+			<div>
+				<img src='MedNodeFillSmall.png'/>
+			</div>
+		    </div>
+		    <h1 style='margin-top:100px'>Mini Nodes</h1>
+		    <div style='display:flex;flex-direction:row'>
+			<div>
+				<img src='MinNode.png'/>
+				<h3>Node ID: ji8vi3</h3>
+				<h3>Production Rate: 2</h3>
+			</div>
+			<div>
+				<img src='MinNode.png'/>
+				<h3>Node ID: v8kj3j</h3>
+				<h3>Production Rate: 1</h3>
+			</div>
+			<div>
+				<img src='MinNodeFill.png'/>
+			</div>
+			<div>
+				<img src='MinNodeFill.png'/>
+			</div>
+			<div>
+				<img src='MinNodeFill.png'/>
+			</div>
+		    </div>
+		  </div>
 		</div>
 	</div>
 	<div id='navbar' class='shadow main-background-color'>
